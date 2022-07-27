@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Food Market Kotlin</string>
+    <string name="food_market">Food Market</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="type_your_email_address_here">Type your email address here</string>
+    <string name="type_your_password_here">Type your password here</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="full_name">Full Name</string>
+    <string name="type_your_full_name_here">Type your full name here</string>
 </resources>
