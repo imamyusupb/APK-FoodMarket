@@ -11,4 +11,13 @@
     <string name="signup">Sign up</string>
     <string name="full_name">Full Name</string>
     <string name="type_your_full_name_here">Type your full name here</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="type_your_phone_number_here">Type your phone number here</string>
+    <string name="address">Address</string>
+    <string name="type_your_address_here">Type your address here</string>
+    <string name="house_number">House Number</string>
+    <string name="type_your_city_here">Type your city here</string>
+    <string name="continuetxt">Continue</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="type_your_house_number_here">type_house_number</string>
 </resources>

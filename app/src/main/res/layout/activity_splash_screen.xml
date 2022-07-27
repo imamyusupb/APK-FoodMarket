@@ -20,7 +20,7 @@
 
     <TextView
         android:id="@+id/textView"
-        style="@style/TextView.PoppinsReguler32sp020202"
+        style="@style/TextView.PoppinsRegular32sp020202"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"

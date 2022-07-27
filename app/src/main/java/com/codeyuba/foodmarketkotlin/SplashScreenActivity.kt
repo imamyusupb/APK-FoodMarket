@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.ImageView
+import com.codeyuba.foodmarketkotlin.ui.auth.AuthActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -16,7 +17,7 @@ class SplashScreenActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed(Runnable {
             startActivity(Intent(
                 this@SplashScreenActivity,
-                MainActivity::class.java))
+                AuthActivity::class.java))
         },3000)
     }
 }

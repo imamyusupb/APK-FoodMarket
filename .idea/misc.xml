@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/drawable/shape_rectangle_outline_8_020202.xml" value="0.2203125" />
+        <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/activity_auth.xml" value="0.25" />
         <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/fragment_signin.xml" value="0.2961672473867596" />
         <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/fragment_signup.xml" value="0.33" />
+        <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/fragment_signup_address.xml" value="0.20416666666666666" />
+        <entry key="..\:/2022-ANDROID-PROJECT/app/src/main/res/layout/layout_toolbar.xml" value="0.33" />
       </map>
     </option>
   </component>

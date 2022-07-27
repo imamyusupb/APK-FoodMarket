@@ -30,9 +30,21 @@
         <item name="android:textColor">#020202</item>
     </style>
 
+    <style name="TextView.PoppinsRegular22sp020202">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsRegular14sp020202">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
     <style name="EditText"/>
 
-    <style name="EditText.PoppinsRegular14sp8D9AD23">
+    <style name="EditText.PoppinsRegular14sp8D9AD23Outlined">
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textSize">14sp</item>
         <item name="android:background">@drawable/shape_rectangle_outline_8_020202</item>
