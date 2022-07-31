@@ -24,45 +24,51 @@
             android:src="@drawable/ic_picture_empty" />
 
         <TextView
-            style="@style/TextView.PoppinsRegular16sp020202"
+            style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/full_name" />
 
         <EditText
-            style="@style/EditText.PoppinsRegular14sp8D9AD23Outlined"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
             android:layout_marginTop="6dp"
             android:hint="@string/type_your_full_name_here"
             android:padding="10dp" />
 
         <TextView
-            style="@style/TextView.PoppinsRegular16sp020202"
+            style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
             android:layout_height="wrap_content"
             android:text="@string/email_address" />
 
         <EditText
-            style="@style/EditText.PoppinsRegular14sp8D9AD23Outlined"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
             android:hint="@string/type_your_email_address_here"
             android:padding="10dp" />
 
         <TextView
-            style="@style/TextView.PoppinsRegular16sp020202"
+            style="@style/TextView.PoppinsNormal16sp020202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
             android:text="@string/password" />
 
         <EditText
-            style="@style/EditText.PoppinsRegular14sp8D9AD23Outlined"
+            style="@style/EditText.PoppinsNormal14sp8D92A3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
             android:hint="@string/type_your_password_here"
             android:padding="10dp" />
 

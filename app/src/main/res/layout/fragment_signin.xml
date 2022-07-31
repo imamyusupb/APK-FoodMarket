@@ -1,58 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="24dp"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#FFF"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
     android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingTop="24dp"
-    android:paddingRight="16dp"
     tools:context=".ui.auth.signin.SigninFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        style="@style/TextView.PoppinsRegular16sp020202"
+        style="@style/TextView.PoppinsNormal16sp020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/email_address" />
+        android:text="Email Address" />
 
     <EditText
-        style="@style/EditText.PoppinsRegular14sp8D9AD23Outlined"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
         android:layout_marginTop="6dp"
-        android:hint="@string/type_your_email_address_here"
-        android:padding="10dp" />
+        android:padding="10dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:hint="Type your email address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
-        style="@style/TextView.PoppinsRegular16sp020202"
+        android:layout_marginTop="16dp"
+        style="@style/TextView.PoppinsNormal16sp020202"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/password" />
+        android:text="Password" />
 
     <EditText
-        style="@style/EditText.PoppinsRegular14sp8D9AD23Outlined"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:hint="Type your password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:hint="@string/type_your_password_here"
-        android:padding="10dp" />
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btn_signin"
+        android:id="@+id/btnSignin"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:layout_marginTop="24dp"
         style="@style/Button.Primary"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="@string/signin" />
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btn_signup"
+        android:id="@+id/btnSignup"
+        android:text="Create New Account"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"
         style="@style/Button.Secondary"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/signup" />
+        android:layout_height="wrap_content"/>
 </LinearLayout>

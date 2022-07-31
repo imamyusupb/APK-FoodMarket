@@ -8,7 +8,7 @@
     <string name="type_your_email_address_here">Type your email address here</string>
     <string name="type_your_password_here">Type your password here</string>
     <string name="signin">Sign in</string>
-    <string name="signup">Sign up</string>
+    <string name="signup">Create new account</string>
     <string name="full_name">Full Name</string>
     <string name="type_your_full_name_here">Type your full name here</string>
     <string name="phone_number">Phone Number</string>
@@ -20,4 +20,10 @@
     <string name="continuetxt">Continue</string>
     <string name="sign_up_now">Sign Up Now</string>
     <string name="type_your_house_number_here">type_house_number</string>
+    <string name="yeay_completed">Yeay! completed</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="home">Home</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="title_notifications">title_notification</string>
 </resources>
