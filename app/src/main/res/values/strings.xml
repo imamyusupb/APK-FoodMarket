@@ -26,4 +26,8 @@
     <string name="title_home">title_home</string>
     <string name="title_dashboard">title_dashboard</string>
     <string name="title_notifications">title_notification</string>
+    <string name="ouch_hungry">Ouch! Hungry</string>
+    <string name="find_foods">Find Foods</string>
+    <string name="imam_yusup_bachtiar">Imam Yusup Bachtiar</string>
+    <string name="imamyusufb123_gmail_com">imamyusufb123@gmail.com</string>
 </resources>
