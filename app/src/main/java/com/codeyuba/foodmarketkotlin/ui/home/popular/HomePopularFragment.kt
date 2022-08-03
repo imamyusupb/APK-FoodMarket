@@ -1,5 +1,6 @@
 package com.codeyuba.foodmarketkotlin.ui.home.popular
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codeyuba.foodmarketkotlin.R
 import com.codeyuba.foodmarketkotlin.model.dummy.HomeVerticalModel
+import com.codeyuba.foodmarketkotlin.ui.detail.DetailActivity
 import com.codeyuba.foodmarketkotlin.ui.home.newtaste.HomeNewTasteAdapter
 import kotlinx.android.synthetic.main.fragment_home_new_taste.*
 
@@ -47,6 +49,7 @@ class HomePopularFragment : Fragment(), HomeNewTasteAdapter.ItemAdapterCallback 
     }
 
     override fun onClick(view: View, data: HomeVerticalModel) {
-        TODO("Not yet implemented")
+        val intent = Intent(activity, DetailActivity::class.java)
+        startActivity(intent)
     }
 }

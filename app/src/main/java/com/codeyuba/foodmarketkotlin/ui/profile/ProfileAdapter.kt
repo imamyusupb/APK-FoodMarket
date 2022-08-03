@@ -4,9 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.codeyuba.foodmarketkotlin.R
-import com.codeyuba.foodmarketkotlin.model.dummy.HomeModel
 import com.codeyuba.foodmarketkotlin.model.dummy.ProfileMenuModel
 import kotlinx.android.synthetic.main.item_profile.view.*
 
@@ -32,7 +30,7 @@ class ProfileAdapter(
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(data: ProfileMenuModel, itemAdapterCallback: ItemAdapterCallback) {
             itemView.apply {
-                tvTitle.text = data.title
+                tvName.text = data.title
 
 //                Glide.with(context)
 //                    .load(data.src)

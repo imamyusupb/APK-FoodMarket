@@ -4,10 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.codeyuba.foodmarketkotlin.R
-import com.codeyuba.foodmarketkotlin.model.dummy.HomeModel
-import com.codeyuba.foodmarketkotlin.utils.Helpers
 import com.codeyuba.foodmarketkotlin.model.dummy.HomeVerticalModel
 import com.codeyuba.foodmarketkotlin.utils.Helpers.formatPrice
 import kotlinx.android.synthetic.main.item_home_vertical.view.*
@@ -35,7 +32,7 @@ class HomeNewTasteAdapter(
         fun bind(data: HomeVerticalModel, itemAdapterCallback: ItemAdapterCallback) {
 
             itemView.apply {
-                tvTitle.text = data.title
+                tvName.text = data.title
                 tvPrice.formatPrice(data.price)
                 rbFood.rating = data.rating
 

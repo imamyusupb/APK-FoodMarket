@@ -7,8 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codeyuba.foodmarketkotlin.R
 import com.codeyuba.foodmarketkotlin.model.dummy.HomeModel
-import kotlinx.android.synthetic.main.fragment_home.view.*
-import kotlinx.android.synthetic.main.fragment_home.view.tvTitle
+import kotlinx.android.synthetic.main.fragment_home.view.tvName
 import kotlinx.android.synthetic.main.item_home_horizontal.view.*
 
 class HomeRecomendedAdapter(
@@ -33,7 +32,7 @@ class HomeRecomendedAdapter(
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(data: HomeModel, itemAdapterCallback: ItemAdapterCallback) {
             itemView.apply {
-                tvTitle.text = data.title
+                tvName.text = data.title
                 rbFood.rating = data.rating
 
                 Glide.with(context)

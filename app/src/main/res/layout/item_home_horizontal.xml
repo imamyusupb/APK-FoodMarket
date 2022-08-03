@@ -13,7 +13,7 @@
         android:layout_height="140dp"/>
 
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvName"
         style="@style/TextView.PoppinsNormal16sp020202"
         android:text="Cherry Healthy"
         android:layout_marginTop="12dp"
