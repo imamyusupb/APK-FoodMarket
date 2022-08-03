@@ -1,14 +1,13 @@
 package com.codeyuba.foodmarketkotlin.ui.detail
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.codeyuba.foodmarketkotlin.R
 import kotlinx.android.synthetic.main.fragment_payment.*
-import java.util.*
 
 class PaymentFragment : Fragment() {
 
@@ -22,6 +21,7 @@ class PaymentFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         (activity as DetailActivity).toolbarPayment()
 
         btnCheckOut.setOnClickListener {
